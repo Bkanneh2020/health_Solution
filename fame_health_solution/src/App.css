@@ -7,6 +7,26 @@
   pointer-events: none;
 }
 
+
+.Navstyle{
+  display: flex;
+  list-style: none;
+  justify-content: center;
+
+}
+
+.Navstyle li{
+  padding: 10px;
+  font-size: 1.5rem;
+}
+
+.compnamestyle{
+  font-size: 1.1rem; 
+  position: absolute;
+  top: 0;
+  left: 10px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
