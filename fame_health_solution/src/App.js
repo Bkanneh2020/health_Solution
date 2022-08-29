@@ -1,11 +1,25 @@
-import logo from './logo.svg';
+import React from 'react';
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import './App.css';
+import Homepage from './Homepage';
+import Navmenu from './HomeLinks/Navmenu';
+
 
 function App() {
   return (
-    <div className="App">
-     <h1>Hello World</h1>
-    </div>
+   <BrowserRouter>
+   <Routes>
+    <Route path='/' element={<Navmenu />}>
+      <Route index element={<Homepage/>}/>
+      <Route path='' element={<Homepage/>}/>
+      <Route path='' element={<Homepage/>}/>
+      <Route path='' element={<Homepage/>}/>
+      <Route path='' element={<Homepage/>}/>
+      <Route path='' element={<Homepage/>}/>
+      <Route path='' element={<Homepage/>}/>
+    </Route>
+   </Routes>
+   </BrowserRouter>
   );
 }
 
