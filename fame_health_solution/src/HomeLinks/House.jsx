@@ -4,7 +4,7 @@ import React from "react";
 const House =()=>{
     return(
     <h1>
-        House Page
+        This Home heathcare Page
     </h1>
     )
 }

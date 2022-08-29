@@ -1,6 +1,7 @@
 import React from "react";
 import {Outlet, Link} from 'react-router-dom';
 import Compname from "./Header";
+import { AiOutlineMenu } from "react-icons/ai";
 
 
 const Navmenu =()=>{
@@ -12,40 +13,29 @@ const Navmenu =()=>{
         
         <>
         <nav>
+            <Compname />
+            <AiOutlineMenu className="threebars" />
           
             <ul className="Navstyle">
 
-                <li>
-                <Compname />
-                </li>
                 <li>
                     <Link to='/' style={{  textDecoration:'none'}}>Home</Link>
                 </li>
                 
                 <li>
-                    <Link to='/work'style={{  textDecoration:'none'}}>Work</Link>
+                    <Link to='/work'style={{  textDecoration:'none'}}>HealthCare</Link>
                 </li>
 
                 <li>
-                    <Link to='/House' style={{  textDecoration:'none'}}>House</Link>
+                    <Link to='/House' style={{  textDecoration:'none'}}>HHealthcare</Link>
                 </li>
 
-                <li>
-                    <Link to='/school' style={{  textDecoration:'none'}}>School</Link>
-                </li>
-
-                <li>
-                    <Link to='/plane' style={{  textDecoration:'none'}}>Plane</Link>
-                </li>
 
                 <li>
                     <Link to='/Contact' style={{  textDecoration:'none'}}>Contact</Link>
                 </li>
 
-                <li>
-                    <Link to='/mall' style={{  textDecoration:'none'}}>Mall</Link>
-                </li>
-
+               
             </ul>
        
         </nav>
