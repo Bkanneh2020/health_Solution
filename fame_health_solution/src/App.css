@@ -2,14 +2,18 @@
 
 .Navstyle{
  margin-top: 50px;
-  list-style: none;
-  justify-content: center;
+justify-content: center;
+
 
 }
 
 .Navstyle li{
-  padding: 5px;
- 
+padding: 3px;
+ list-style: none;
+ font-size: .9rem;
+
+
+
 }
 
 .compnamestyle{
@@ -21,24 +25,131 @@
 
 .threebars{
  position: absolute;
- margin-left: 95%;
+ margin-left: 93%;
  top: 0;
- font-size: 1.2rem;
+ font-size: 1.8rem;
 }
+.healthstyle{
+  position: absolute;
+ left: 0;
+ margin-top: 5px;
+ 
+
+}
+
+.homehealthstyle{
+  position: absolute;
+  left: 0;
+  margin-top: 5px;
+
+}
+
+.healthstyle li{
+  font-size: .7rem;
+}
+
+.homehealthlist{
+  margin-top: 105px;
+
+}
+
+.homehealthlist li{
+  font-size: .7rem;
+}
+
+.contactstyle{
+  margin-top: 105px;
+  
+  
+}
+
+
 
 @media only screen and (min-width: 768px){
 
   body{
-    background-color: aqua;
+   background: linear-gradient(to right,  #9c9e9f 0%,#9c9e9f 50%,#f6f6f6 50%,#f6f6f6 100%);
   }
 
   .Navstyle{
     display: flex;
     padding: 10px;
     font-size: 1.4rem;
+    margin-top: 5px;
+   
+  }
+
+  nav{
+    background: linear-gradient(to right, #FA9494 0%, #FA9494 50%, #F1A661 50%, #F1A661 100%);
+
   }
 
   .threebars{
     display: none;
   }
+
+  .healthstyle{
+   
+    list-style: none;
+    font-size: .9rem;
+    position: absolute;
+    background: #F7ECDE;
+    margin-top: 5px;
+    padding: 20px;
+    display: none;
+    
+  }
+  .homehealthstyle{
+
+    list-style: none;
+    font-size: .9rem;
+    position: absolute;
+    background: #F7ECDE;
+    margin-top: 5px;
+    padding: 20px;
+    display: none;
+    
+   
+  }
+
+  .homehealthlist:hover .homehealthstyle{
+    display: flex;
+  }
+
+  .healthlist:hover .healthstyle{
+    display: flex;
+  }
+
+  .contactstyle{
+  margin-top: 0;
+  padding: 5px;
+  font-size: 1.2rem;
+  }
+
+  .homehealthlist{
+    margin-top: 0;
+    font-size: 1.2rem;
+    padding: 5px;
+  }
+
+  .healthstyle{
+    margin-left: 40%;
+  }
+
+  .homehealthstyle{
+    margin-left: 40%;
+  }
+
+  .healthlist{
+    font-size: 1.2rem;
+    padding: 5px;
+  }
+.homestyle{
+  font-size: 1.2rem;
+  padding: 5px;
+}
+.arrowdown{
+  display: none;
+} 
+
 }
