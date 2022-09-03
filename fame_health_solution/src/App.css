@@ -30,7 +30,8 @@ padding: 3px;
  position: absolute;
  margin-left: 93%;
  top: 0;
- font-size: 1.8rem;
+ font-size: 1.7rem;
+ color: #aa4c4c;
 }
 
 @media only screen and (min-width: 768px){
@@ -49,7 +50,7 @@ padding: 3px;
   
 
   nav{
-    background: linear-gradient(to right, #FA9494 0%, #FA9494 50%, #F1A661 50%, #F1A661 100%);
+    background: linear-gradient(to right, #948989 0%, #917f7f 50%, #F1A661 50%, #F1A661 100%);
 
   }
 
@@ -89,16 +90,7 @@ padding: 3px;
     display: flex;
   }
 */
-  .contactstyle{
-  margin-top: 0;
-  padding: 5px;
-  font-size: 1.2rem;
-  }
 
-.homestyle{
-  font-size: 1.2rem;
-  padding: 5px;
-}
 .arrowdown{
   display: none;
 } 

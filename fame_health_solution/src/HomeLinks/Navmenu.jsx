@@ -5,6 +5,7 @@ import Compname from "./Header";
 import { AiOutlineMenu } from "react-icons/ai";
 import { useMediaQuery } from "react-responsive";
 import SmallLinks from "./MenuList";
+import SeconDropMenu from "./SecondDropMenu";
 
 const Navmenu = () => {
  
@@ -19,6 +20,13 @@ const Navmenu = () => {
     query: '(min-width:768px)'
   });
 
+  const [HoveringTime, setHoveringTime]=useState(false);
+
+  const handleMouseTime =()=>{
+    setHoveringTime(true)
+  };
+
+
   return (
     <>
       <nav>
@@ -32,47 +40,50 @@ const Navmenu = () => {
             <li>
               <Link
                 to="/"
-                style={{ textDecoration: "none", color: "black" }}
-                className="homestyle"
+                style={{ textDecoration: "none", color: "black", padding: "5px",
+                fontSize: "1.2rem" }}
               >
                 Home
               </Link>
             </li>
 
-            <li className="healthlist">
+            <li onMouseOver={handleMouseTime}>
               <Link
                 to="/work"
-                style={{ textDecoration: "none", color: "black" }}
-                className="healthlist"
+                style={{ textDecoration: "none", color: "black",  padding: "5px",
+                fontSize: "1.2rem" }}
               >
                 HealthCare{" "}
               </Link> 
+              {HoveringTime && <SeconDropMenu />}
             </li>
 
-            <li className="homehealthlist">
+            <li>
               <Link
                 to="/House"
-                style={{ textDecoration: "none", color: "black" }}
-                className="homehealthlist"
+                style={{ textDecoration: "none", color: "black", padding: "5px",
+                fontSize: "1.2rem"}}
               >
                 HHealthcare
               </Link>
             </li>
 
-            <li className="contactstyle">
+            <li>
               <Link
                 to="/Contact"
-                style={{ textDecoration: "none", color: "black" }}
-                className="contactstyle"
+                style={{ textDecoration: "none", color: "black", padding: "5px",
+                fontSize: "1.2rem" }}
+                
               >
                 Contact
               </Link>
             </li>
 
-            <li className="help">
+            <li>
               <Link
                 to="/Help"
-                style={{ textDecoration: "none", color: "black" }}
+                style={{ textDecoration: "none", color: "black", padding: "5px",
+                fontSize: "1.2rem" }}
               
               >
                 Help

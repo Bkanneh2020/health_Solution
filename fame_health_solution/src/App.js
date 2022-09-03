@@ -9,6 +9,7 @@ import House from './HomeLinks/House';
 import School from './HomeLinks/School';
 import Plane from './HomeLinks/Plane';
 import Work from './HomeLinks/Work';
+import Help from './HomeLinks/Help';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       <Route path='Plane' element={<Plane/>}/>
       <Route path='Work' element={<Work/>}/>
       <Route path='House' element={<House/>}/>
+      <Route path='Help' element={<Help/>}/>
     </Route>
    </Routes>
    </BrowserRouter>

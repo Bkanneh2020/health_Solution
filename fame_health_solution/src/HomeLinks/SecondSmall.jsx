@@ -10,31 +10,31 @@ const SecondSmallLiks = useMediaQuery({
 
 
     return(
-        <div>
+        <div style={{ backgroundColor: "#73777B", marginLeft:'-25px' }}>
             {SecondSmallLiks && (
                  <ul className="homehealthstyle">
-                 <li>
-                   <Link to="" style={{ textDecoration: "none" }}>
+                 <li style={{listStyle:'none', fontSize:'.9rem'}}>
+                   <Link to="" style={{ textDecoration: "none", color:'#fff', marginLeft:'-13px' }}>
                      Health Evaultion
                    </Link>
                  </li>
-                 <li>
-                   <Link to="" style={{ textDecoration: "none" }}>
+                 <li style={{listStyle:'none', fontSize:'.9rem'}}>
+                   <Link to="" style={{ textDecoration: "none", color:'#fff', marginLeft:'-13px' }}>
                      Cleaing
                    </Link>
                  </li>
-                 <li>
-                   <Link to="" style={{ textDecoration: "none" }}>
+                 <li style={{listStyle:'none', fontSize:'.9rem'}}>
+                   <Link to="" style={{ textDecoration: "none", color:'#fff', marginLeft:'-13px' }}>
                      Cooking
                    </Link>
                  </li>
-                 <li>
-                   <Link to="" style={{ textDecoration: "none" }}>
+                 <li style={{listStyle:'none', fontSize:'.9rem'}}>
+                   <Link to="" style={{ textDecoration: "none", color:'#fff', marginLeft:'-13px' }}>
                      Peace of Mind
                    </Link>
                  </li>
-                 <li>
-                   <Link to="" style={{ textDecoration: "none" }}>
+                 <li style={{listStyle:'none', fontSize:'.9rem'}}>
+                   <Link to="" style={{ textDecoration: "none", color:'#fff', marginLeft:'-13px' }}>
                      Exercise
                    </Link>
                  </li>

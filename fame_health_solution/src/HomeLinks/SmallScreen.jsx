@@ -8,31 +8,31 @@ const SmallScreen = () => {
   });
 
   return (
-    <div style={{ backgroundColor: "yellow" }}>
+    <div style={{ backgroundColor: "#73777B", marginLeft:'-25px' }}>
       {WhenSmaller && (
         <ul>
-          <li>
-            <Link to="" style={{ textDecoration: "none" }}>
+          <li style={{listStyle:'none', fontSize:'.9rem'}}>
+            <Link to="" style={{ textDecoration: "none", color:'#fff', marginLeft:'-13px'}}>
               Nuring
             </Link>
           </li>
-          <li>
-            <Link to="" style={{ textDecoration: "none" }}>
+          <li style={{listStyle:'none', fontSize:'.9rem'}}>
+            <Link to="" style={{ textDecoration: "none", color:'#fff', marginLeft:'-13px' }}>
               Therapy
             </Link>
           </li>
-          <li>
-            <Link to="" style={{ textDecoration: "none" }}>
+          <li style={{listStyle:'none', fontSize:'.9rem'}}>
+            <Link to="" style={{ textDecoration: "none", color:'#fff', marginLeft:'-13px' }}>
               Mindfulness
             </Link>
           </li>
-          <li>
-            <Link to="" style={{ textDecoration: "none" }}>
+          <li style={{listStyle:'none', fontSize:'.9rem'}}>
+            <Link to="" style={{ textDecoration: "none", color:'#fff', marginLeft:'-13px' }}>
               Peace of Mind
             </Link>
           </li>
-          <li>
-            <Link to="" style={{ textDecoration: "none" }}>
+          <li style={{listStyle:'none', fontSize:'.9rem'}}>
+            <Link to="" style={{ textDecoration: "none", color:'#fff', marginLeft:'-13px' }}>
               Exercise
             </Link>
           </li>
