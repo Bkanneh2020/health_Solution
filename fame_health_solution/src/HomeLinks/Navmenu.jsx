@@ -2,16 +2,12 @@ import React from "react";
 import { useState } from "react";
 import { Outlet, Link } from "react-router-dom";
 import Compname from "./Header";
-import { AiOutlineMenu, AiOutlineDown } from "react-icons/ai";
+import { AiOutlineMenu } from "react-icons/ai";
 import { useMediaQuery } from "react-responsive";
-import SmallLinks from "./Mall";
+import SmallLinks from "./MenuList";
 
 const Navmenu = () => {
-  const [isShown, SetIsShown] = useState(false);
-
-  const whenClick = (event) => {
-    SetIsShown((current) => !current);
-  };
+ 
 
   const [menuDisplay, setmenuDisplay] = useState(false);
 
@@ -19,12 +15,17 @@ const Navmenu = () => {
     setmenuDisplay((current) => !current);
   };
 
+  const onBigScreen = useMediaQuery({
+    query: '(min-width:768px)'
+  });
+
   return (
     <>
       <nav>
         <Compname />
         <AiOutlineMenu className="threebars" onClick={afterClick} />
         {menuDisplay && <SmallLinks />}
+       {onBigScreen && ( 
 
         <div className="navmenu">
           <ul className="Navstyle">
@@ -45,7 +46,7 @@ const Navmenu = () => {
                 className="healthlist"
               >
                 HealthCare{" "}
-              </Link>
+              </Link> 
             </li>
 
             <li className="homehealthlist">
@@ -56,37 +57,6 @@ const Navmenu = () => {
               >
                 HHealthcare
               </Link>
-              <AiOutlineDown className="arrowdown" onClick={whenClick} />
-
-              {isShown && (
-                <ul className="homehealthstyle">
-                  <li>
-                    <Link to="" style={{ textDecoration: "none" }}>
-                      Health Evaultion
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="" style={{ textDecoration: "none" }}>
-                      Cleaing
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="" style={{ textDecoration: "none" }}>
-                      Cooking
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="" style={{ textDecoration: "none" }}>
-                      Peace of Mind
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="" style={{ textDecoration: "none" }}>
-                      Exercise
-                    </Link>
-                  </li>
-                </ul>
-              )}
             </li>
 
             <li className="contactstyle">
@@ -98,8 +68,20 @@ const Navmenu = () => {
                 Contact
               </Link>
             </li>
+
+            <li className="help">
+              <Link
+                to="/Help"
+                style={{ textDecoration: "none", color: "black" }}
+              
+              >
+                Help
+              </Link>
+            </li>
+
           </ul>
         </div>
+       )}
       </nav>
       <Outlet />
     </>

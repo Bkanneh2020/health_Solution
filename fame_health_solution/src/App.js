@@ -3,7 +3,7 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import './App.css';
 import Homepage from './Homepage';
 import Navmenu from './HomeLinks/Navmenu';
-import Mall from './HomeLinks/Mall';
+import MenuList from './HomeLinks/MenuList';
 import Contact from './HomeLinks/Contact';
 import House from './HomeLinks/House';
 import School from './HomeLinks/School';
@@ -17,7 +17,7 @@ function App() {
    <Routes>
     <Route path='/' element={<Navmenu />}>
       <Route index element={<Homepage/>}/>
-      <Route path='Mall' element={<Mall/>}/>
+      <Route path='MenuList' element={<MenuList/>}/>
       <Route path='Contact' element={<Contact/>}/>
       <Route path='School' element={<School/>}/>
       <Route path='Plane' element={<Plane/>}/>
