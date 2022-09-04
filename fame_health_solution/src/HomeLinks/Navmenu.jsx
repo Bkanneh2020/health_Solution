@@ -20,13 +20,6 @@ const Navmenu = () => {
     query: '(min-width:768px)'
   });
 
-  const [HoveringTime, setHoveringTime]=useState(false);
-
-  const handleMouseTime =()=>{
-    setHoveringTime(true)
-  };
-
-
   return (
     <>
       <nav>
@@ -35,7 +28,7 @@ const Navmenu = () => {
         {menuDisplay && <SmallLinks />}
        {onBigScreen && ( 
 
-        <div className="navmenu">
+        <div className="navmenu" style={{marginTop:'-40px'}}>
           <ul className="Navstyle">
             <li>
               <Link
@@ -47,15 +40,15 @@ const Navmenu = () => {
               </Link>
             </li>
 
-            <li onMouseOver={handleMouseTime}>
+            <li>
               <Link
                 to="/work"
                 style={{ textDecoration: "none", color: "black",  padding: "5px",
-                fontSize: "1.2rem" }}
+                fontSize: "1.2rem" }} className="healthlist"
               >
                 HealthCare{" "}
               </Link> 
-              {HoveringTime && <SeconDropMenu />}
+              
             </li>
 
             <li>

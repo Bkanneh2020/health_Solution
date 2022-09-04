@@ -16,8 +16,7 @@ padding: 3px;
 
 .compnamestyle{
   font-size: 1.1rem; 
-  position: absolute;
-  top: 0;
+ 
   left: 5px;
 }
 
@@ -31,7 +30,7 @@ padding: 3px;
  margin-left: 93%;
  top: 0;
  font-size: 1.7rem;
- color: #aa4c4c;
+ color: #fff;
 }
 
 @media only screen and (min-width: 768px){
@@ -85,11 +84,10 @@ padding: 3px;
   /*.homehealthlist:hover .homehealthstyle{
     display: flex;
   }
-
-  .healthlist:hover .healthstyle{
-    display: flex;
-  }
 */
+  .healthlist:hover {
+  color: red;
+  }
 
 .arrowdown{
   display: none;

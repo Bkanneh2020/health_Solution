@@ -13,16 +13,16 @@ const Compname =()=>{
     return(
         <div className="compnamestyle">
             {headingForBig && (
-            <h3 style={{color:'#fff', fontSize:'1.4rem'}}>
-                Fame Health Solutions <span style={{color:'#fff', fontSize:'1.3rem', backgroundColor: '#3B9AE1'}}><AiOutlineMedicineBox /></span>
+            <h3 style={{color:'#fff', fontSize:'1.4rem', display:'inline', paddingLeft:'2px'}}>
+                Fame Health Solutions <button style={{borderRadius:'50%', backgroundColor: '#3B9AE1', padding:'5px',}}><span style={{color:'#fff', fontSize:'1.5rem'}}><AiOutlineMedicineBox /></span></button>
             </h3>
 
             )}
 
             {headingForSmall && (
-                <div style={{marginTop:'-20px', backgroundColor:'black', color:'#fff', marginLeft:'-5px', paddingRight:'60px'}}>
+                <div style={{marginTop:'-20px', backgroundColor:'black', color:'#fff', marginLeft:'-5px', paddingRight:'80px'}}>
                 <h3>
-                <span style={{marginTop:'3px', color:'#fff', fontSize:'1.3rem', backgroundColor: '#3B9AE1'}}><AiOutlineMedicineBox /></span>Fame Health Solutions 
+               <button style={{borderRadius:'50%', backgroundColor: '#3B9AE1'}}><span style={{marginTop:'3px', color:'#fff', fontSize:'1.3rem'}}><AiOutlineMedicineBox /></span></button> Fame Health Solutions 
                 </h3>
                 </div>
             )}

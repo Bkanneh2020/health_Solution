@@ -24,11 +24,12 @@ const SmallLinks = () => {
   }
   const listmenu={
     listStyle:'none',
+    marginTop: '-5px'
   
   }
 
   return (
-    <div style={{ marginLeft:'-15px', paddingTop:'20px', backgroundColor:'black'}}>
+    <div style={{ marginLeft:'-15px', marginTop:'-22px', paddingTop:'20px', backgroundColor:'black'}}>
       {SmallerLinks && (
         <ul style={listmenu}>
           <li>

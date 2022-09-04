@@ -7,22 +7,22 @@ import{Link} from 'react-router-dom';
 const SeconDropMenu =()=>{
     return(
        
-    <div style={{display:'flex'}}>
+    <div style={{display:'flex'}} className='SecondDropLinks'>
             <ul>
                 <li>
-                    <Link to='Nursing'></Link>
+                    <Link to='Nursing'>Nursing</Link>
                 </li>
                 <li>
-                    <Link to='Therapy'></Link>
+                    <Link to='Therapy'>Therapy</Link>
                 </li>
                 <li>
-                    <Link to='Minfulness'></Link>
+                    <Link to='Minfulness'>Mindfulness</Link>
                 </li>
                 <li>
-                    <Link to='Peace of Mind'></Link>
+                    <Link to='Peace of Mind'>Peace of Mind</Link>
                 </li>
                 <li>
-                    <Link to='Exercise'></Link>
+                    <Link to='Exercise'>Exercise</Link>
                 </li>
             </ul>
         </div>
