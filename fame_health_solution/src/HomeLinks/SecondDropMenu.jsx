@@ -5,10 +5,16 @@ import{Link} from 'react-router-dom';
 
 
 const SeconDropMenu =()=>{
+    const listclass ={
+        textDecoration:'none',
+        listStyle:'none', 
+        display: 'flex',
+        position:'absolute'
+    }
     return(
        
-    <div style={{display:'flex'}} className='SecondDropLinks'>
-            <ul>
+    <div className='SecondDropLinks'>
+            <ul className="SecondDropLinks" style={listclass}>
                 <li>
                     <Link to='Nursing'>Nursing</Link>
                 </li>

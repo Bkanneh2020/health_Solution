@@ -84,11 +84,11 @@ padding: 3px;
   /*.homehealthlist:hover .homehealthstyle{
     display: flex;
   }
-*/
-  .healthlist:hover {
-  color: red;
-  }
 
+ .healthlist:hover .SecondDropLinks{
+  display: flex;
+  }
+*/
 .arrowdown{
   display: none;
 } 

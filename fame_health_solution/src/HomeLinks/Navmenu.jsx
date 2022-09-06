@@ -20,6 +20,24 @@ const Navmenu = () => {
     query: '(min-width:768px)'
   });
 
+   const [WhenHovering, setWhenHovering] = useState(false);
+
+  const handlehovering =()=>{
+    setWhenHovering(true)
+  } 
+
+  const mouseout =()=>{
+    setWhenHovering(false)
+  }
+  const [HoveringTime, setHoveringTime] = useState(false);
+
+  const mousehover =()=>{
+    setHoveringTime(true)
+  }
+
+  const nomousehover =()=>{
+    setHoveringTime(false)
+  }
   return (
     <>
       <nav>
@@ -40,22 +58,24 @@ const Navmenu = () => {
               </Link>
             </li>
 
-            <li>
+            <li className="healthlist">
               <Link
                 to="/work"
                 style={{ textDecoration: "none", color: "black",  padding: "5px",
-                fontSize: "1.2rem" }} className="healthlist"
-              >
+                fontSize: "1.2rem" }} className="healthlist"  onMouseOver={handlehovering} onMouseOut={mouseout}>
+              
                 HealthCare{" "}
+               {WhenHovering && <SeconDropMenu />} 
+
               </Link> 
               
             </li>
 
-            <li>
+            <li className="homelist">
               <Link
                 to="/House"
                 style={{ textDecoration: "none", color: "black", padding: "5px",
-                fontSize: "1.2rem"}}
+                fontSize: "1.2rem"}} className='homelist' onMouseOver={mousehover} onMouseOut={nomousehover}
               >
                 HHealthcare
               </Link>
