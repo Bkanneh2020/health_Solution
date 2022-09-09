@@ -6,6 +6,7 @@ import { AiOutlineMenu } from "react-icons/ai";
 import { useMediaQuery } from "react-responsive";
 import SmallLinks from "./MenuList";
 import SeconDropMenu from "./SecondDropMenu";
+import FirstDropMenu from "./FirstDropMenu";
 
 const Navmenu = () => {
  
@@ -78,6 +79,7 @@ const Navmenu = () => {
                 fontSize: "1.2rem"}} className='homelist' onMouseOver={mousehover} onMouseOut={nomousehover}
               >
                 HHealthcare
+                {HoveringTime && <FirstDropMenu />}
               </Link>
             </li>
 

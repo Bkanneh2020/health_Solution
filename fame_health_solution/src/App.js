@@ -10,10 +10,12 @@ import School from './HomeLinks/School';
 import Plane from './HomeLinks/Plane';
 import Work from './HomeLinks/Work';
 import Help from './HomeLinks/Help';
+import Footer from './HomeLinks/Footer';
 
 
 function App() {
-  return (
+  return ( 
+    <div>
    <BrowserRouter>
    <Routes>
     <Route path='/' element={<Navmenu />}>
@@ -28,6 +30,10 @@ function App() {
     </Route>
    </Routes>
    </BrowserRouter>
+   <Footer/>
+   </div>
+
+
   );
 }
 

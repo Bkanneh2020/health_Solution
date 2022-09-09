@@ -6,29 +6,41 @@ import{Link} from 'react-router-dom';
 
 const SeconDropMenu =()=>{
     const listclass ={
-        textDecoration:'none',
-        listStyle:'none', 
-        display: 'flex',
-        position:'absolute'
+        backgroundColor:'#F9F9F9',
+        paddingTop:'5px', 
+        paddingLeft:'0',
+        paddingRight:'5px',
+        borderRadius:'5px'
     }
+    const linkclass={
+        textDecoration:'none',
+        listStyle:'none',
+        
+    }
+    const secondDiv={
+     position:'absolute', 
+  
+    }
+
+
     return(
        
-    <div className='SecondDropLinks'>
+    <div className='SecondDropLinks' style={secondDiv}>
             <ul className="SecondDropLinks" style={listclass}>
                 <li>
-                    <Link to='Nursing'>Nursing</Link>
+                    <Link style={linkclass}  to='Nursing'>Nursing</Link>
                 </li>
                 <li>
-                    <Link to='Therapy'>Therapy</Link>
+                    <Link style={linkclass}  to='Therapy'>Therapy is session</Link>
                 </li>
                 <li>
-                    <Link to='Minfulness'>Mindfulness</Link>
+                    <Link style={linkclass}  to='Minfulness'>Mindfulness</Link>
                 </li>
                 <li>
-                    <Link to='Peace of Mind'>Peace of Mind</Link>
+                    <Link style={linkclass}  to='Peace of Mind'>Peace within</Link>
                 </li>
                 <li>
-                    <Link to='Exercise'>Exercise</Link>
+                    <Link style={linkclass}  to='Exercise'>Exercise</Link>
                 </li>
             </ul>
         </div>
