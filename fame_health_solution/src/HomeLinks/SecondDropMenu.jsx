@@ -15,6 +15,7 @@ const SeconDropMenu =()=>{
     const linkclass={
         textDecoration:'none',
         listStyle:'none',
+        color:'#181818'
         
     }
     const secondDiv={
@@ -27,19 +28,19 @@ const SeconDropMenu =()=>{
        
     <div className='SecondDropLinks' style={secondDiv}>
             <ul className="SecondDropLinks" style={listclass}>
-                <li>
-                    <Link style={linkclass}  to='Nursing'>Nursing</Link>
+                <li className='linkclass'>
+                    <Link style={linkclass} to='Nursing'>Nursing</Link>
                 </li>
-                <li>
+                <li className='linkclass'>
                     <Link style={linkclass}  to='Therapy'>Therapy is session</Link>
                 </li>
-                <li>
+                <li className='linkclass'>
                     <Link style={linkclass}  to='Minfulness'>Mindfulness</Link>
                 </li>
-                <li>
+                <li className='linkclass'>
                     <Link style={linkclass}  to='Peace of Mind'>Peace within</Link>
                 </li>
-                <li>
+                <li className='linkclass'>
                     <Link style={linkclass}  to='Exercise'>Exercise</Link>
                 </li>
             </ul>

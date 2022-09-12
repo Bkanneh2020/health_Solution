@@ -8,10 +8,9 @@ const Footer =()=>{
 
     const FooterStyle ={
         textAlign: 'center',
-        position: 'absolute',
-        bottom: '0',
-        right: '0',
-        left: 'o',
+        position:'absolute',
+        bottom: '-100px',
+        width:'100%',
         backgroundColor: '#4b4846'
         
     }
@@ -19,7 +18,7 @@ const Footer =()=>{
     return(
         <div style={FooterStyle} className='footerstyle'>
 
-            <p>&copy{year} </p>
+            <p> &copy;{year} </p>
             <AiOutlineTwitter/> <AiOutlineFacebook/> <FaPinterest/> <AiOutlineInstagram/>
 
         </div>

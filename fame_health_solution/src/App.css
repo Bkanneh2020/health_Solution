@@ -37,9 +37,8 @@ position: absolute;
 bottom: 0;
 right: 0;
 left: 0;
-background-color: #4b4846;
+background-color: #4d3f36;
 }
-
 
 
 @media only screen and (min-width: 768px){
@@ -91,6 +90,25 @@ background-color: #4b4846;
 
 .arrowdown{
   display: none;
+}
+.linkclass{
+  opacity:.6;
+}
+
+.linkclass:hover{
+  opacity: 1;
+}
+.btnmap{
+  color: rgb(105, 63, 60);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 } 
+
+.homehealth{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 }
