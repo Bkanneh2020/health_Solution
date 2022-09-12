@@ -9,8 +9,7 @@ const Footer =()=>{
     const FooterStyle ={
         textAlign: 'center',
         position:'absolute',
-        bottom: '-100px',
-        width:'100%',
+        bottom: '-70%',
         backgroundColor: '#4b4846'
         
     }
