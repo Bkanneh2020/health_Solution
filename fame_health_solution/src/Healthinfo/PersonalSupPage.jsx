@@ -1,19 +1,18 @@
 import React from "react";
 
-const SilsPage = () => {
-
-  const silsstyle ={
+const PersonalSupPage = () => {
+  const personalstyle ={
     border:'4px solid red',
     width:"55%",
-    margin:'auto'
+    margin:'auto',
+    marginBottom:'15px'
   }
-
   return (
-    <div style={silsstyle} id="silsread">
-      <h2 className="silsdesign">
-        Support Individual Linving Standard
-      </h2>
-      <p className="sislpara">
+    <div id="personalsupread" style={personalstyle}>
+         <h3 className="divheading">
+    Personal Support
+      </h3>
+      <p className="divparagraph">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Platea dictumst
         vestibulum rhoncus est pellentesque elit ullamcorper dignissim. Et
@@ -28,19 +27,10 @@ const SilsPage = () => {
         sociis. Sagittis purus sit amet volutpat consequat mauris. Cras
         fermentum odio eu feugiat pretium. Dictumst vestibulum rhoncus est
         pellentesque elit ullamcorper. Eget mauris pharetra et ultrices neque
-        ornare aenean. Bibendum neque egestas congue quisque egestas diam in. At
-        elementum eu facilisis sed odio. Praesent tristique magna sit amet purus
-        gravida quis blandit turpis. Nibh venenatis cras sed felis eget. Aliquam
-        ultrices sagittis orci a scelerisque purus semper eget. Posuere lorem
-        ipsum dolor sit amet consectetur. Lacus vel facilisis volutpat est velit
-        egestas. Fusce id velit ut tortor pretium. Mattis ullamcorper velit sed
-        ullamcorper morbi tincidunt ornare massa eget. Velit dignissim sodales
-        ut eu sem. Nec tincidunt praesent semper feugiat nibh. Ultrices dui
-        sapien eget mi proin. Eget est lorem ipsum dolor sit amet consectetur
-        adipiscing elit.
+        ornare aenean. Bibendum neque egestas congue quisque egestas diam in.
       </p>
     </div>
   );
 };
 
-export default SilsPage;
+export default PersonalSupPage;

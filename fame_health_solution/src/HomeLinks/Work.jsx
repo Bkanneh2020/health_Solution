@@ -1,11 +1,11 @@
 import React from "react";
 import { HashLink as Link } from "react-router-hash-link";
 import HomeMaker from "../Healthinfo/Homemaker";
-import Iclspage from "./Iclspage";
-import InsPage from "./InsPage";
-import NightsupPage from "./NightsupPage";
-import PersonalSupPage from "./PersonalSupPage";
-import SilsPage from "./SilsPage";
+import Iclspage from "../Healthinfo/Iclspage";
+import InsPage from "../Healthinfo/InsPage";
+import NightsupPage from "../Healthinfo/NightsupPage";
+import PersonalSupPage from "../Healthinfo/PersonalSupPage";
+import SilsPage from "../Healthinfo/SilsPage";
 
 const Work = () => {
   const btnstyle = {

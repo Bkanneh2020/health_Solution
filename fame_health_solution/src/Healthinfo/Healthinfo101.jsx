@@ -8,8 +8,8 @@ const Healthinfo101 = () => {
   }
   return (
     <div id="H">
-        <h4>Health101</h4>
-      <p style={pstyle}>
+        <h4 className="divheading">Health101</h4>
+      <p style={pstyle} className='divparagraph'>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Auctor urna nunc id
         cursus metus aliquam eleifend mi. Et tortor at risus viverra adipiscing
