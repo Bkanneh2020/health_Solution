@@ -124,5 +124,14 @@
     text-indent: 30px;
     margin: 0;
     padding: 20px;
+    letter-spacing: 1px;
+    text-align: justify;
   }
+/*.btnstyle{
+  opacity: .8;
+}
+.btnstyle:hover{
+  opacity: 1;
+}
+*/
 }

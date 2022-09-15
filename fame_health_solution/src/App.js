@@ -5,10 +5,10 @@ import Homepage from './Homepage';
 import Navmenu from './HomeLinks/Navmenu';
 import MenuList from './HomeLinks/MenuList';
 import Contact from './HomeLinks/Contact';
-import House from './HomeLinks/House';
+import HomeHealthPage from './HomeLinks/HomeHealthPage';
 import School from './HomeLinks/School';
 import Plane from './HomeLinks/Plane';
-import Work from './HomeLinks/Work';
+import HealthcarePage from './HomeLinks/HealthcarePage';
 import Help from './HomeLinks/Help';
 import Footer from './HomeLinks/Footer';
 
@@ -24,8 +24,8 @@ function App() {
       <Route path='Contact' element={<Contact/>}/>
       <Route path='School' element={<School/>}/>
       <Route path='Plane' element={<Plane/>}/>
-      <Route path='Work' element={<Work/>}/>
-      <Route path='House' element={<House/>}/>
+      <Route path='HealthcarePage' element={<HealthcarePage/>}/>
+      <Route path='HomeHealthPage' element={<HomeHealthPage/>}/>
       <Route path='Help' element={<Help/>}/>
     </Route>
    </Routes>

@@ -11,30 +11,32 @@ const Work = () => {
   const btnstyle = {
     padding: "10px",
     margin: "5px",
+    backgroundColor:'#5CB8E4',
+    fontSize:'1em'
   };
   return (
-    <div>
+    <div style={{backgroundImage:"url(/Images/clockbg.jpg)"}}>
       <div className="homehealth">
         <Link to="#Homeread" smooth>
-          <button style={btnstyle}>Home Maker</button>
+          <button style={btnstyle} className='btnstyle'>Home Maker</button>
         </Link>
         <Link to="#iclsread" smooth>
-          <button style={btnstyle}>ICLS</button>
+          <button style={btnstyle} className='btnstyle'>Individual Community Living Support</button>
         </Link>
         <Link to="#insread" smooth>
           {" "}
-          <button style={btnstyle}>IHS</button>
+          <button style={btnstyle} className='btnstyle'>Individual Home Support</button>
         </Link>
         <Link to="#nightsupread" smooth>
-          <button style={btnstyle}>Night Supervision</button>
+          <button style={btnstyle} className='btnstyle'>Night Supervision</button>
         </Link>
         <Link to="#personalsupread" smooth>
           {" "}
-          <button style={btnstyle}>Personal Support</button>
+          <button style={btnstyle} className='btnstyle'>Personal Support</button>
         </Link>
         <Link to="#silsread" smooth>
           {" "}
-          <button style={btnstyle}>SILS</button>
+          <button style={btnstyle} className='btnstyle'>Support Individual Linving Standard</button>
         </Link>
       </div>
       <HomeMaker />

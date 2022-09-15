@@ -3,10 +3,11 @@ import React from "react";
 const SilsPage = () => {
 
   const silsstyle ={
-    border:'4px solid red',
+    border:'2px solid #000',
     width:"55%",
     margin:'auto',
-    marginBottom:'15px'
+    marginBottom:'15px',
+    backgroundColor:'#fff'
   }
 
   return (

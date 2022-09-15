@@ -2,11 +2,12 @@ import React from "react";
 
 const HomeMaker =()=>{
   const homestyle={
-    border:'4px solid red',
+    border:'2px solid #000',
     width:"55%",
     margin:'auto',
     marginBottom:'15px',
-    marginTop:'25px'
+    marginTop:'25px',
+    backgroundColor:'#fff'
   }
     return(
         <div id="Homeread" style={homestyle}>

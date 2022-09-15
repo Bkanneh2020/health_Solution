@@ -61,7 +61,7 @@ const Navmenu = () => {
 
             <li className="healthlist">
               <Link
-                to="/work"
+                to="/HealthcarePage"
                 style={{ textDecoration: "none", color: "black",  padding: "5px",
                 fontSize: "1.2rem" }} className="healthlist"  onMouseOver={handlehovering} onMouseOut={mouseout}>
               
@@ -74,7 +74,7 @@ const Navmenu = () => {
 
             <li className="homelist">
               <Link
-                to="/House"
+                to="/HomeHealthPage"
                 style={{ textDecoration: "none", color: "black", padding: "5px",
                 fontSize: "1.2rem"}} className='homelist' onMouseOver={mousehover} onMouseOut={nomousehover}
               >
