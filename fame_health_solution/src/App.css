@@ -127,11 +127,24 @@
     letter-spacing: 1px;
     text-align: justify;
   }
-/*.btnstyle{
+.btnstyle{
   opacity: .8;
 }
 .btnstyle:hover{
   opacity: 1;
 }
-*/
+
+ .pageheading{
+  font-family: 'Courier New', Courier, monospace;
+  width: 30%;
+  color: #fff;
+  margin: auto;
+  padding: 10px;
+ }
+
+ .homepageheading{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: #f6f6f6;
+ }
 }

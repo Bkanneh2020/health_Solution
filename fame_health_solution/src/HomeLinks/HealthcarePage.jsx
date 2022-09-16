@@ -16,6 +16,11 @@ const Work = () => {
   };
   return (
     <div style={{backgroundImage:"url(/Images/clockbg.jpg)"}}>
+      <div className="pageheading">
+        <h1>
+          Your Healthcare Solutions
+        </h1>
+      </div>
       <div className="homehealth">
         <Link to="#Homeread" smooth>
           <button style={btnstyle} className='btnstyle'>Home Maker</button>
