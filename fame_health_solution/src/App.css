@@ -144,7 +144,15 @@
 
  .homepageheading{
   display: grid;
-  grid-template-columns: 100px auto auto auto;
+  grid-template-columns: auto auto;
   
  }
+
+ .headingbtn{
+text-align: end;
+opacity: .9;
+}
+.headingbtnn:hover{
+  color: #0F4471;
+}
 }
