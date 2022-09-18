@@ -4,8 +4,16 @@ import { CgFileDocument } from "react-icons/cg";
 import { BsCardText, BsPeopleFill } from "react-icons/bs";
 
 const HomepageHeading = () => {
+const headingbg ={
+  backgroundImage:"url(/Images/headingbg.jpg)",
+  backgroundSize:'cover',
+  backgroundPosition:'center',
+  backgroundAttachment: 'fixed',
+  padding:'130px'
+}
+
   return (
-    <div className="homepageheading">
+    <div className="homepageheading" style={headingbg}>
       <div style={{ border: "2px solid gray" }}>
         <CgFileDocument  style={{fontSize:'2rem'}} />
         <p>About us</p>

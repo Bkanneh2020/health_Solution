@@ -144,7 +144,7 @@
 
  .homepageheading{
   display: grid;
-  grid-template-columns: auto auto auto auto;
-  background-color: #f6f6f6;
+  grid-template-columns: 100px auto auto auto;
+  
  }
 }
