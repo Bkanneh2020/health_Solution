@@ -8,41 +8,83 @@ import PersonalSupPage from "../Healthinfo/PersonalSupPage";
 import SilsPage from "../Healthinfo/SilsPage";
 
 const Work = () => {
-  const btnstyle = {
-    padding: "10px",
+  const listyle = {
+    padding: "8px",
     margin: "5px",
-    backgroundColor:'#5CB8E4',
-    fontSize:'1em'
+    fontSize: "1.2em",
   };
+
   return (
-    <div style={{backgroundImage:"url(/Images/clockbg.jpg)"}}>
+    <div style={{ backgroundImage: "url(/Images/clockbg.jpg)" }}>
       <div className="pageheading">
-        <h1>
-          Your Healthcare Solutions
-        </h1>
+        <h1>Your Healthcare Solutions</h1>
       </div>
       <div className="homehealth">
-        <Link to="#Homeread" smooth>
-          <button style={btnstyle} className='btnstyle'>Home Maker</button>
-        </Link>
-        <Link to="#iclsread" smooth>
-          <button style={btnstyle} className='btnstyle'>Individual Community Living Support</button>
-        </Link>
-        <Link to="#insread" smooth>
-          {" "}
-          <button style={btnstyle} className='btnstyle'>Individual Home Support</button>
-        </Link>
-        <Link to="#nightsupread" smooth>
-          <button style={btnstyle} className='btnstyle'>Night Supervision</button>
-        </Link>
-        <Link to="#personalsupread" smooth>
-          {" "}
-          <button style={btnstyle} className='btnstyle'>Personal Support</button>
-        </Link>
-        <Link to="#silsread" smooth>
-          {" "}
-          <button style={btnstyle} className='btnstyle'>Support Individual Linving Standard</button>
-        </Link>
+        <ul style={{ listStyle: "none" }}>
+          <li style={listyle}>
+            <Link
+              to="#Homeread"
+              smooth
+              style={{ textDecoration: "none", color: "#fff" }}
+              className="listyle"
+            >
+              Home Maker
+            </Link>
+          </li>
+          <li style={listyle}>
+            <Link
+              to="#iclsread"
+              smooth
+              style={{ textDecoration: "none", color: "#fff" }}
+              className="listyle"
+            >
+              Individual Community Living Support
+            </Link>
+          </li>
+          <li style={listyle}>
+            <Link
+              to="#insread"
+              smooth
+              style={{ textDecoration: "none", color: "#fff" }}
+              className="listyle"
+            >
+              {" "}
+              Individual Home Support
+            </Link>
+          </li>
+          <li style={listyle}>
+            <Link
+              to="#nightsupread"
+              smooth
+              style={{ textDecoration: "none", color: "#fff" }}
+              className="listyle"
+            >
+              Night Supervision
+            </Link>
+          </li>
+          <li style={listyle}>
+            <Link
+              to="#personalsupread"
+              smooth
+              style={{ textDecoration: "none", color: "#fff" }}
+              className="listyle"
+            >
+              {" "}
+              Personal Support
+            </Link>
+          </li>
+          <li style={listyle}>
+            <Link
+              to="#silsread"
+              smooth
+              style={{ textDecoration: "none", color: "#fff" }}
+              className="listyle"
+            >
+              {" "}
+              Support Individual Linving Standard
+            </Link>
+          </li>
+        </ul>
       </div>
       <HomeMaker />
       <Iclspage />

@@ -16,7 +16,7 @@
 }
 
 .homepage {
-  background: #f1a661;
+  background: #b2b677;
 }
 
 .threebars {
@@ -55,10 +55,10 @@
   nav {
     background: linear-gradient(
       to right,
-      #948989 0%,
-      #917f7f 50%,
-      #f1a661 50%,
-      #f1a661 100%
+      #4db489 0%,
+      #a2cc5e 50%,
+      #2f9c78 50%,
+      #4acab5 100%
     );
   }
 
@@ -104,16 +104,19 @@
 
   .homehealth {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: #0a0909;
+    display: inline-block;
+    border-radius: 15px;
+    position: fixed;
   }
 
   .divheading {
-    color: #131111;
+    color: #ebe2e2;
     font-family: "Lato", sans-serif;
     font-size: 40px;
     font-weight: 100;
     line-height: 58px;
+    text-align: center;
     margin: 0 0 25px;
   }
   .divparagraph {
@@ -127,32 +130,41 @@
     letter-spacing: 1px;
     text-align: justify;
   }
-.btnstyle{
-  opacity: .8;
-}
-.btnstyle:hover{
-  opacity: 1;
-}
+  .listyle {
+    opacity: 0.7;
+  }
+  .listyle:hover {
+    opacity: 1;
+  }
 
- .pageheading{
-  font-family: 'Courier New', Courier, monospace;
-  width: 30%;
-  color: #fff;
-  margin: auto;
-  padding: 10px;
- }
+  .pageheading {
+    font-family: "Courier New", Courier, monospace;
+    width: 30%;
+    color: #fff;
+    margin: auto;
+    padding: 10px;
+  }
 
- .homepageheading{
-  display: grid;
-  grid-template-columns: auto auto;
-  
- }
+  .homepageheading {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
 
- .headingbtn{
-text-align: end;
-opacity: .9;
-}
-.headingbtnn:hover{
-  color: #0F4471;
-}
+  .headingbtn {
+    text-align: end;
+    opacity: 0.9;
+  }
+  .headingbtnn:hover {
+    color: #0f4471;
+  }
+
+  .homemaker101 {
+    display: flex;
+  }
+  .secondfounder{
+    display: flex;
+  }
+  .firstfounder{
+    display: flex;
+  }
 }

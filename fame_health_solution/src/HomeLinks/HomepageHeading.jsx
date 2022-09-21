@@ -12,6 +12,12 @@ const HomepageHeading = () => {
     paddingBottom: "20%",
   };
 
+  const hone={
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center'
+  }
+
   return (
     <div className="homepageheading" style={headingbg}>
       <div>
@@ -21,7 +27,8 @@ const HomepageHeading = () => {
             paddingLeft: "10px",
             paddingRight: "10px",
             borderRadius: "10px",
-            backgroundColor:'#ffff'
+            backgroundColor:'#fff',
+            border:'#fff'
           }}
         >
           <CgFileDocument style={{ fontSize: "2rem" }} />
@@ -33,12 +40,16 @@ const HomepageHeading = () => {
             paddingLeft: "10px",
             paddingRight: "10px",
             borderRadius: "10px",
-            backgroundColor:'#ffff'
+            backgroundColor:'#fff',
+            border:"#fff"
           }}
         >
           <AiOutlineWechat style={{ fontSize: "2rem" }} />
           <span style={{ display: "block" }}>Chat with us</span>
         </button>
+      </div>
+      <div style={hone}>
+      <h1 style={{ color:'#000', margin:'auto'}}>A health solution that fits your healthcare needs</h1>
       </div>
       <div className="headingbtn">
         <button className="headingbtnn"
@@ -47,7 +58,9 @@ const HomepageHeading = () => {
             paddingLeft: "10px",
             paddingRight: "10px",
             borderRadius: "10px",
-            backgroundColor:'#ffff',
+            backgroundColor:'#fff',
+            border:'#fff'
+
           }}
         >
           <BsCardText style={{ fontSize: "2rem" }} />
@@ -59,7 +72,8 @@ const HomepageHeading = () => {
             paddingLeft: "10px",
             paddingRight: "10px",
             borderRadius: "10px",
-            backgroundColor:'#ffff'
+            backgroundColor:'#fff',
+            border:'#fff'
           }}
         >
           <BsPeopleFill style={{ fontSize: "2rem" }} />

@@ -7,7 +7,6 @@ import MenuList from './HomeLinks/MenuList';
 import Contact from './HomeLinks/Contact';
 import HomeHealthPage from './HomeLinks/HomeHealthPage';
 import School from './HomeLinks/School';
-import Plane from './HomeLinks/Plane';
 import HealthcarePage from './HomeLinks/HealthcarePage';
 import Help from './HomeLinks/Help';
 import Footer from './HomeLinks/Footer';
@@ -23,7 +22,6 @@ function App() {
       <Route path='MenuList' element={<MenuList/>}/>
       <Route path='Contact' element={<Contact/>}/>
       <Route path='School' element={<School/>}/>
-      <Route path='Plane' element={<Plane/>}/>
       <Route path='HealthcarePage' element={<HealthcarePage/>}/>
       <Route path='HomeHealthPage' element={<HomeHealthPage/>}/>
       <Route path='Help' element={<Help/>}/>

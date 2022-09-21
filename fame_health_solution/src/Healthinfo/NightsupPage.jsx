@@ -10,9 +10,19 @@ const NightsupPage = () => {
   }
   return (
     <div id="nightsupread" style={nightstyle}>
+      <div style={{ backgroundColor: "#020b11" }}>
          <h3 className="divheading">
      Night Supervision
       </h3>
+      </div>
+      <div className="homemaker101">
+        <div>
+        <img
+            src={"/Images/fireoutdoor.jpg"}
+            style={{ maxHeight: "400px", maxWidth: "400px" }} alt='outdoor'
+          />
+        </div>
+        <div>
       <p className="divparagraph">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Platea dictumst
@@ -31,6 +41,8 @@ const NightsupPage = () => {
         ornare aenean. Bibendum neque egestas congue quisque egestas diam in. At
         elementum eu facilisis sed odio. Praesent tristique magna sit amet purus
       </p>
+      </div>
+      </div>
     </div>
   );
 };

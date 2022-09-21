@@ -1,19 +1,19 @@
 import React from "react";
 import { HashLink as Link } from "react-router-hash-link";
-import Plane from "./HomeLinks/Plane";
-import Healthinfo101 from "./Healthinfo/Healthinfo101";
-import Patientinfo from "./Healthinfo/PatientInfo";
+import AboutUs from "./HomeLinks/HomepageComponenets/AboutUs";
+import MissionStatment from "./HomeLinks/HomepageComponenets/MissionStatment";
+import Services from "./HomeLinks/HomepageComponenets/Services";
 import HomepageHeading from "./HomeLinks/HomepageHeading";
+import Founders from "./HomeLinks/HomepageComponenets/Founders";
 
 const Homepage = () => {
   return (
     <div className="homepage">
       <HomepageHeading />
-      <h1>Hello Home page.</h1>
-      <Link to="#Health101" smooth>HealthInfo</Link>
-      <Plane />
-      <Patientinfo />
-      <Healthinfo101 />
+      <Services />
+      <AboutUs />
+      <MissionStatment />
+      <Founders />
     </div>
   );
 };

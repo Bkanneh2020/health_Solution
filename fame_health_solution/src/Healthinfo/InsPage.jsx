@@ -11,9 +11,19 @@ const InsPage = () => {
 
   return (
     <div id="insread" lassName="silsdesign" style={insstyle}>
+      <div style={{ backgroundColor: "#020b11" }}>
         <h3 className="divheading">
       Individul Home Support
       </h3>
+      </div>
+      <div className="homemaker101">
+        <div>
+        <img
+            src={"/Images/greencorn.jpg"}
+            style={{ maxHeight: "400px", maxWidth: "400px" }} alt='outdoor'
+          />
+        </div>
+        <div>
       <p className="divparagraph">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Platea dictumst
@@ -31,6 +41,8 @@ const InsPage = () => {
         pellentesque elit ullamcorper. Eget mauris pharetra et ultrices neque
         ornare aenean. Bibendum neque egestas congue quisque egestas diam in.
       </p>
+      </div>
+      </div>
     </div>
   );
 };
