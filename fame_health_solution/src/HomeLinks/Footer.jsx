@@ -19,10 +19,10 @@ const Footer = () => {
   return (
     <div style={FooterStyle} className="footerstyle">
       <p> &copy;{year} </p>
-      <AiOutlineTwitter style={{ color: "#1D9BF0" }} />{" "}
-      <AiOutlineFacebook style={{ color: "#4267B2" }} />{" "}
-      <FaPinterest style={{ color: "#E60023" }} />{" "}
-      <AiOutlineInstagram style={{ color: "#405DE6" }} />
+      <AiOutlineTwitter style={{ color: "#1D9BF0", fontSize:'1.8em' }} />{" "}
+      <AiOutlineFacebook style={{ color: "#4267B2", fontSize:'1.8em' }} />{" "}
+      <FaPinterest style={{ color: "#E60023", fontSize:'1.8em'}} />{" "}
+      <AiOutlineInstagram style={{ color: "#405DE6", fontSize:'1.8em' }} />
     </div>
   );
 };

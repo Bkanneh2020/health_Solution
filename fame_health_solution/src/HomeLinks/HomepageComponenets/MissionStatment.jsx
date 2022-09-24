@@ -5,7 +5,8 @@ const MissionStatment = () => {
     textIndent: "50px",
     letterSpacing: "2px",
     padding: "30px",
-    backgroundColor:'#fff'
+    backgroundColor:'#fff',
+    lineHeight:'25px'
   };
 
   const h4style = {
@@ -27,67 +28,33 @@ const MissionStatment = () => {
         <h4 style={h4style}>Our Vision</h4>
 
         <p style={pstyle}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          <br />
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Platea
-          <br />
-          dictumst vestibulum rhoncus est pellentesque elit ullamcorper
-          <br />
-          dignissim. Et pharetra pharetra massa massa ultricies mi quis
-          <br />
-          hendrerit dolor. Faucibus vitae aliquet nec ullamcorper. Diam volutpat
-          <br />
-          commodo sed egestas egestas. Duis convallis convallis tellus id
-          <br />
-          interdum. Tincidunt vitae semper quis lectus nulla. Vitae congue
-          <br />
-          mauris rhoncus aenean vel elit scelerisque. Odio aenean sed adipiscing
-          <br />
-          diam donec adipiscing tristique risus. Id aliquet lectus proin nibh
-          <br />
-          nisl condimentum id venenatis a. Lorem ipsum dolor sit amet. Interdum
-          <br />
-          velit laoreet id donec ultrices. Imperdiet nulla malesuada
-          <br />
-          pellentesque elit eget gravida cum sociis. Sagittis purus sit amet
-          <br />
-          volutpat consequat mauris. Cras fermentum odio eu feugiat pretium.
-          <br />
-          Dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Eget
-          <br />
+        A little explaination regarding this work. Lorem ipsum dolor sit amet,
+          consectetur <br />
+          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua for. <br />
+          Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper
+          dignissim. always <br />
+          Et pharetra pharetra massa massa ultricies mi quis hendrerit dolor.
+          Faucibus vitae foral<br /> aliquet nec ullamcorper. Diam volutpat commodo
+          sed egestas remember to sleep and eat <br />
+          Duis convallis convallis tellus id egestas. Life is good on this side, so living like always
+          
+   
         </p>
       </di>
       <div>
         <h4 style={h4style}>Mission Statment</h4>
         <p style={pstyle}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          <br />
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Platea
-          <br />
-          dictumst vestibulum rhoncus est pellentesque elit ullamcorper
-          <br />
-          dignissim. Et pharetra pharetra massa massa ultricies mi quis
-          <br />
-          hendrerit dolor. Faucibus vitae aliquet nec ullamcorper. Diam volutpat
-          <br />
-          commodo sed egestas egestas. Duis convallis convallis tellus id
-          <br />
-          interdum. Tincidunt vitae semper quis lectus nulla. Vitae congue
-          <br />
-          mauris rhoncus aenean vel elit scelerisque. Odio aenean sed adipiscing
-          <br />
-          diam donec adipiscing tristique risus. Id aliquet lectus proin nibh
-          <br />
-          nisl condimentum id venenatis a. Lorem ipsum dolor sit amet. Interdum
-          <br />
-          velit laoreet id donec ultrices. Imperdiet nulla malesuada
-          <br />
-          pellentesque elit eget gravida cum sociis. Sagittis purus sit amet
-          <br />
-          volutpat consequat mauris. Cras fermentum odio eu feugiat pretium.
-          <br />
-          Dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Eget
-          <br />
+        A little explaination regarding this work. Lorem ipsum dolor sit amet,
+          consectetur <br />
+          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua for. <br />
+          Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper
+          dignissim. always <br />
+          Et pharetra pharetra massa massa ultricies mi quis hendrerit dolor.
+          Faucibus vitae foral<br /> aliquet nec ullamcorper. Diam volutpat commodo
+          sed egestas remember to sleep and eat <br />
+          Duis convallis convallis tellus id egestas. Life is good on this side, so living like always
         </p>
       </div>
     </div>

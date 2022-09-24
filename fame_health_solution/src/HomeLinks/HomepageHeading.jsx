@@ -14,8 +14,8 @@ const HomepageHeading = () => {
 
   const hone={
     display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center'
+  
+  
   }
 
   return (

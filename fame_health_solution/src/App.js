@@ -6,7 +6,6 @@ import Navmenu from './HomeLinks/Navmenu';
 import MenuList from './HomeLinks/MenuList';
 import Contact from './HomeLinks/Contact';
 import HomeHealthPage from './HomeLinks/HomeHealthPage';
-import School from './HomeLinks/School';
 import HealthcarePage from './HomeLinks/HealthcarePage';
 import Help from './HomeLinks/Help';
 import Footer from './HomeLinks/Footer';
@@ -21,7 +20,6 @@ function App() {
       <Route index element={<Homepage/>}/>
       <Route path='MenuList' element={<MenuList/>}/>
       <Route path='Contact' element={<Contact/>}/>
-      <Route path='School' element={<School/>}/>
       <Route path='HealthcarePage' element={<HealthcarePage/>}/>
       <Route path='HomeHealthPage' element={<HomeHealthPage/>}/>
       <Route path='Help' element={<Help/>}/>
