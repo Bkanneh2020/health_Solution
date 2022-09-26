@@ -33,6 +33,14 @@
   left: 0;
   background-color: #4d3f36;
 }
+.contactinfo{
+  display: none;
+}
+
+.smallcontactinfo{
+  display: block;
+}
+
 
 @media only screen and (min-width: 768px) {
   body {
@@ -44,6 +52,8 @@
       #f6f6f6 100%
     );
   }
+  .contactinfo{
+    display:block;}
 
   .Navstyle {
     display: flex;
@@ -166,6 +176,10 @@
   }
   .firstfounder{
     display: flex;
-   
   }
+
+  .smallcontactinfo{
+    display: none;
+  }
+
 }

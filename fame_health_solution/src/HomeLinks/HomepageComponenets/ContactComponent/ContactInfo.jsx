@@ -1,4 +1,7 @@
 import React from "react";
+import { AiOutlineMail, AiFillClockCircle } from "react-icons/ai";
+import { BsTelephoneFill} from "react-icons/bs";
+import {IoLocation } from "react-icons/io5";
 
 const ContactInfo = () => {
   const contactstyle = {
@@ -6,7 +9,7 @@ const ContactInfo = () => {
     gridTemplateColumns: "auto auto",
   };
   return (
-    <div
+    <div className="contactinfo"
       style={{
         backgroundColor: "#C6EBC5",
         width: "70%",
@@ -26,7 +29,7 @@ const ContactInfo = () => {
               fontSize: "1.2em",
             }}
           >
-            Address
+            <IoLocation style={{paddingRight:'6px'}}/> Address
           </span>
           <hr
             style={{
@@ -58,7 +61,7 @@ const ContactInfo = () => {
               fontSize: "1.2em",
             }}
           >
-            Email
+            <AiOutlineMail style={{paddingRight:'6px'}}/>Email
           </span>
           <hr
             style={{
@@ -69,7 +72,7 @@ const ContactInfo = () => {
             }}
           ></hr>
           <span style={{ display: "block", padding: "3px" }}>
-            info@fmaehealth.org
+          info@fmaehealth.org
           </span>
         </div>
       </di>
@@ -82,7 +85,7 @@ const ContactInfo = () => {
               fontSize: "1.2em",
             }}
           >
-            Phone
+             <BsTelephoneFill style={{paddingRight:'6px'}}/>Phone
           </span>
           <hr
             style={{
@@ -104,7 +107,7 @@ const ContactInfo = () => {
               fontSize: "1.2em",
             }}
           >
-            Office Hours
+            <AiFillClockCircle style={{paddingRight:'6px'}}/> Office Hours
           </span>
           <hr
             style={{
