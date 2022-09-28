@@ -7,7 +7,7 @@ import NightsupPage from "../Healthinfo/NightsupPage";
 import PersonalSupPage from "../Healthinfo/PersonalSupPage";
 import SilsPage from "../Healthinfo/SilsPage";
 
-const Work = () => {
+const Healthcare = () => {
   const listyle = {
     padding: "8px",
     margin: "5px",
@@ -96,4 +96,4 @@ const Work = () => {
   );
 };
 
-export default Work;
+export default Healthcare;

@@ -33,14 +33,22 @@
   left: 0;
   background-color: #4d3f36;
 }
-.contactinfo{
+.contactinfo {
   display: none;
 }
 
-.smallcontactinfo{
+.smallcontactinfo {
+  display: block;
+  background-color: #829460;
+}
+
+.smallcontactform {
   display: block;
 }
 
+.contactform {
+  display: none;
+}
 
 @media only screen and (min-width: 768px) {
   body {
@@ -52,8 +60,9 @@
       #f6f6f6 100%
     );
   }
-  .contactinfo{
-    display:block;}
+  .contactinfo {
+    display: block;
+  }
 
   .Navstyle {
     display: flex;
@@ -115,7 +124,6 @@
   .homehealth {
     display: flex;
     background-color: #0a0909;
-    display: inline-block;
     border-radius: 15px;
     position: fixed;
   }
@@ -145,6 +153,7 @@
   }
   .listyle:hover {
     opacity: 1;
+    
   }
 
   .pageheading {
@@ -171,15 +180,20 @@
   .homemaker101 {
     display: flex;
   }
-  .secondfounder{
+  .secondfounder {
     display: flex;
   }
-  .firstfounder{
+  .firstfounder {
     display: flex;
   }
 
-  .smallcontactinfo{
+  .smallcontactinfo {
     display: none;
   }
-
+  .smallcontactform {
+    display: none;
+  }
+  .contactform {
+    display: block;
+  }
 }

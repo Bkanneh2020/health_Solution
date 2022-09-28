@@ -8,32 +8,17 @@ const SmallScreen = () => {
   });
 
   return (
-    <div style={{ backgroundColor: "#73777B", marginLeft:'-25px' }}>
+    <div style={{ marginLeft:'-25px'}}>
       {WhenSmaller && (
         <ul>
-          <li style={{listStyle:'none', fontSize:'.9rem'}}>
-            <Link to="" style={{ textDecoration: "none", color:'#fff', marginLeft:'-13px'}}>
-              Nuring
+          <li style={{listStyle:'none', fontSize:'.7rem'}}>
+            <Link to="HealthcarePage" style={{ textDecoration: "none", color:'#FD841F'}}>
+             Healthcare
             </Link>
           </li>
-          <li style={{listStyle:'none', fontSize:'.9rem'}}>
-            <Link to="" style={{ textDecoration: "none", color:'#fff', marginLeft:'-13px' }}>
-              Therapy
-            </Link>
-          </li>
-          <li style={{listStyle:'none', fontSize:'.9rem'}}>
-            <Link to="" style={{ textDecoration: "none", color:'#fff', marginLeft:'-13px' }}>
-              Mindfulness
-            </Link>
-          </li>
-          <li style={{listStyle:'none', fontSize:'.9rem'}}>
-            <Link to="" style={{ textDecoration: "none", color:'#fff', marginLeft:'-13px' }}>
-              Peace of Mind
-            </Link>
-          </li>
-          <li style={{listStyle:'none', fontSize:'.9rem'}}>
-            <Link to="" style={{ textDecoration: "none", color:'#fff', marginLeft:'-13px' }}>
-              Exercise
+          <li style={{listStyle:'none', fontSize:'.7rem'}}>
+            <Link to="HomeHealthPage" style={{ textDecoration: "none", color:'#FD841F'}}>
+              Home Healthcare
             </Link>
           </li>
         </ul>

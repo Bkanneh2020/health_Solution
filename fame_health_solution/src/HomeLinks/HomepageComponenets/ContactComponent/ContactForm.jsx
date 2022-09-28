@@ -18,6 +18,7 @@ const ContactForm = () => {
   };
   return (
     <div
+      className="contactform"
       style={{
         padding: "30px",
         textAlign: "center",
@@ -125,7 +126,7 @@ const ContactForm = () => {
           fontSize: "1.5rem",
           backgroundColor: "#A1C298",
           borderColor: "#fff",
-          border:'none'
+          border: "none",
         }}
       >
         Submit

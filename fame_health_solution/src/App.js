@@ -9,6 +9,8 @@ import HomeHealthPage from './HomeLinks/HomeHealthPage';
 import HealthcarePage from './HomeLinks/HealthcarePage';
 import Help from './HomeLinks/Help';
 import Footer from './HomeLinks/Footer';
+import ServiceMenu from './HomeLinks/ServiceMenu';
+
 
 
 function App() {
@@ -23,6 +25,7 @@ function App() {
       <Route path='HealthcarePage' element={<HealthcarePage/>}/>
       <Route path='HomeHealthPage' element={<HomeHealthPage/>}/>
       <Route path='Help' element={<Help/>}/>
+      <Route path='ServiceMenu' element={<ServiceMenu/>}/>
     </Route>
    </Routes>
    </BrowserRouter>
